@@ -1,0 +1,121 @@
+.contact-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(24, 22, 22);
+
+}
+.rightpart-p-contact{
+    padding-left: 356px;
+}
+.contact-main-container{
+    margin: 0 auto;
+    width: auto;
+    height: 100vh;
+    padding: 0 100px;
+}
+.contact-items{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+.contact-title{
+background-color: hsla(0,0%,100%,.08);
+    color: #999;
+    padding: 10px;
+    width: 58px;
+    position: absolute;
+    top: 10%;
+}
+.contact-touch{
+color: #fff;
+    width: 70%;
+    position: absolute;
+    top: 20%;
+    font-weight: 800;
+    font-size: 30px;
+}
+.fields{
+
+}
+.contact-form{
+
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+}
+input{
+    padding: 10px 15px;
+    font-style: italic;
+    background-color: transparent;
+    width: 100%;
+    margin-bottom: 8px;
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 1.4px;
+}
+textarea{
+    height: 100px;
+    padding: 10px 15px;
+    font-style: italic;
+    background-color: transparent;
+    border: 1px solid hsla(0,0%,100%,.2);
+    width: -webkit-fill-available;
+    margin-bottom: 8px;
+    resize: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1.4px;
+}
+::placeholder{
+    color: #fff;
+}
+.form-submit{
+
+}
+.form-button{
+ width: 18%;
+    padding: 10px 15px;
+    color: #0a0a0a;
+    background-color: white;
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+button:hover{
+    letter-spacing: 2px;
+    transition: all .3s ease-in-out;
+    padding-right: 10px;
+}
+.form-submit{
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .rightpart-p-contact{
+        padding: 0;
+    }
+    .contact-title{
+        top: 13%;
+    }
+    .leftContainer{
+        box-shadow: none;
+    }
+    .form-button{
+        width: 25%;
+    }
+}
+@media (max-width: 760px){
+    .form-button {
+    width: 50%;
+}
+}

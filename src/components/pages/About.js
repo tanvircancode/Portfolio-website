@@ -1,12 +1,12 @@
 import React from 'react';
-import Portfolio from '../PortfolioSection';
+import AboutSection from '../AboutSection';
 import LeftContainer from '../LeftContainer';
 
 export default function Home() {
   return (
     <>
       <LeftContainer />
-      <Portfolio />
+      <AboutSection />
     </>
   );
 }
